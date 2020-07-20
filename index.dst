@@ -1,0 +1,36 @@
+for(i = 0; i < 10; i = i + 1) {
+	outline "Hello!  " + i
+}
+/*
+i = 0
+do {
+	out i + "\n"
+	i = i + 1
+} while(i < 10)
+
+while(i < 10) {
+	out i + "\n"
+	i = i + 1
+	if(i == 8) break
+}
+*/
+
+// too comment
+func hello(name) {
+	outline "Hello, " + name + "!"
+}
+
+out "My name is "
+name = read()
+hello(name)
+
+/*
+a = 3
+if(a = 1) {
+	out "A is "
+	outline a
+}
+else {
+	outline a
+}
+*/
